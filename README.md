@@ -4,7 +4,7 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 📋 Overview
+## Overview
 
 This project implements and compares multiple advanced regression techniques to predict housing prices in King County, Washington (Seattle area). Through systematic analysis, the project demonstrates the superiority of tree-based ensemble methods over traditional linear approaches for this dataset.
 
@@ -12,14 +12,14 @@ This project implements and compares multiple advanced regression techniques to 
   <img src="images/price_distribution.png" alt="Housing Price Distribution" width="600"/>
 </p>
 
-## 🎯 Objective
+## Objective
 
 The goal of this project is to develop accurate models for predicting housing prices by:
 - Evaluating multiple regression approaches, from linear models to ensemble methods
 - Identifying key determinants of housing prices in the Seattle market
 - Providing actionable insights for real estate stakeholders
 
-## 📊 Dataset
+## Dataset
 
 The analysis uses the King County Housing Sales dataset containing information on 21,613 properties sold between May 2014 and May 2015. Each record includes 21 features such as:
 
@@ -31,7 +31,7 @@ The analysis uses the King County Housing Sales dataset containing information o
 - Building grade and condition
 - And more...
 
-## 🔍 Methods
+## Methods
 
 The project implements a comprehensive data science workflow:
 
@@ -60,7 +60,7 @@ The project implements a comprehensive data science workflow:
 - Mean Squared Error (MSE) as primary metric
 - Variable importance analysis
 
-## 📈 Key Findings
+## Key Findings
 
 - **Tree-based ensemble methods significantly outperform linear approaches**:
   - Gradient Boosting performs best (MSE: 0.0278)
@@ -77,7 +77,7 @@ The project implements a comprehensive data science workflow:
   <img src="images/feature_importance.png" alt="Feature Importance" width="600"/>
 </p>
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 housing-price-prediction/
@@ -98,7 +98,7 @@ housing-price-prediction/
 └── README.md                      # Project description
 ```
 
-## 🔧 Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 - Python 3.7+
@@ -130,25 +130,17 @@ pip install -r requirements.txt
 jupyter notebook notebooks/housing_price_prediction.ipynb
 ```
 
-## 📚 References
+## References
 
 - James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). *An Introduction to Statistical Learning with Applications in R*. Springer.
 - Kuhn, M., & Johnson, K. (2013). *Applied Predictive Modeling*. Springer.
 - Scikit-learn documentation for algorithm implementations
 
-## 🔜 Future Work
+## Future Work
 
 - Incorporate additional data sources (school quality, crime rates, walkability scores)
 - Develop spatially explicit models to better account for neighborhood effects
 - Create specialized models for different market segments (luxury homes, condos, etc.)
 - Implement time series analysis to capture market trends and seasonality
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact
-
-[Your Name] - [your.email@example.com]
-
-Project Link: [https://github.com/your-username/housing-price-prediction](https://github.com/your-username/housing-price-prediction)
